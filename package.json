@@ -1,0 +1,23 @@
+{
+  "name": "Bittrex24toDiscordDataCourier",
+  "version": "0.0.0",
+  "description": "",
+  "author": "beaver <bobrov.js@gmail.com>",
+  "main": "functions/test.js",
+  "dependencies": {
+    "got": "^9.5.0",
+    "lib": "^3.0.2",
+    "node-fetch": "^2.3.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "beaver/Bittrex24toDiscordDataCourier",
+    "timeout": 10000,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
