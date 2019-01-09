@@ -32,7 +32,7 @@ await post(DISCORD_WEBHOOK_URL, payload)
 $ lib up dev
 $ lib your_username.yourService[@dev]
 ```
-#### For "relese" run
+#### For "release" run
 ```
 $ lib release
 $ lib your_username.yourService
