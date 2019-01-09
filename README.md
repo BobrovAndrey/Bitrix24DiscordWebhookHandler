@@ -20,22 +20,21 @@ Bitrix24DiscordWebhookHandler simple way to catch your Bitrix24 webhook and send
     bitrixDomain = data(context).bitrixDomain
     let payload = embeds(`Message ${leadId}`, `https://${bitrixDomain}/crm/lead/details/${leadId}/`, bitrixDomain)
 ```  
-7. Pass ```DISCORD_WEBHOOK_URL``` and ```payload``` to ```post``` method and treat him like a promise  
+7. Pass ```DISCORD_WEBHOOK_URL``` and ```payload``` to ```post``` method and treat it like a promise  
 ```
 await post(DISCORD_WEBHOOK_URL, payload)
      .then(responce => console.log(responce))
      .catch(err => console.log(err)) 
 ```   
 8. Thats all. 
-#### for dev run
+#### for "dev" run
 ```
 $ lib up dev
 $ lib your_username.yourService[@dev]
 ```
-#### for relese run
+#### for "relese" run
 ```
 $ lib release
 $ lib your_username.yourService
-"hello world"
 ```
  #### If you have additional questions, read more about [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser) and [Bitrix24Sender](https://github.com/BobrovAndrey/Bitrix24Sender) or [stdlib](https://docs.stdlib.com/main/#/introduction) 
