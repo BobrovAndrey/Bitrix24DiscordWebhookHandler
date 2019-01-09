@@ -27,17 +27,17 @@ await post(DISCORD_WEBHOOK_URL, payload)
      .catch(err => console.log(err)) 
 ```   
 8. Thats all. 
-#### for "dev" run
+#### For "dev" run
 ```
 $ lib up dev
 $ lib your_username.yourService[@dev]
 ```
-#### for "relese" run
+#### For "relese" run
 ```
 $ lib release
 $ lib your_username.yourService
 ```
-#### view the logs
+#### Logs
 ```
 $ lib logs your_username.yourService
 ```
