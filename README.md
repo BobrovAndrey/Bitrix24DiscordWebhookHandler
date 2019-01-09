@@ -27,4 +27,4 @@ await post(DISCORD_WEBHOOK_URL, payload)
      .catch(err => console.log(err)) 
 ```   
 8. Thats all
- #### If you have additional questions, read more about [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser) and [Bitrix24Sender]  (https://github.com/BobrovAndrey/Bitrix24Sender)  
+ #### If you have additional questions, read more about [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser) and [Bitrix24Sender](https://github.com/BobrovAndrey/Bitrix24Sender)  
