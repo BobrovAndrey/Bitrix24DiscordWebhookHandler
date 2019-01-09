@@ -26,5 +26,16 @@ await post(DISCORD_WEBHOOK_URL, payload)
      .then(responce => console.log(responce))
      .catch(err => console.log(err)) 
 ```   
-8. Thats all
- #### If you have additional questions, read more about [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser) and [Bitrix24Sender](https://github.com/BobrovAndrey/Bitrix24Sender)  
+8. Thats all. 
+#### for dev run
+```
+$ lib up dev
+$ lib your_username.yourService[@dev]
+```
+#### for relese run
+```
+$ lib release
+$ lib your_username.yourService
+"hello world"
+```
+ #### If you have additional questions, read more about [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser) and [Bitrix24Sender](https://github.com/BobrovAndrey/Bitrix24Sender) or [stdlib](https://docs.stdlib.com/main/#/introduction) 
