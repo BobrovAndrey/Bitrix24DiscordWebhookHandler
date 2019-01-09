@@ -1,8 +1,9 @@
 # Bitrix24DiscordWebhookHandler
 Bitrix24DiscordWebhookHandler simple way to catch your Bitrix24 webhook and send it to Discord
 
-Require [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser)
-        [Bitrix24Sender](https://github.com/BobrovAndrey/Bitrix24Sender)
+## Require 
+* [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser)  
+* [Bitrix24Sender](https://github.com/BobrovAndrey/Bitrix24Sender)
 
 
 ## How to use
