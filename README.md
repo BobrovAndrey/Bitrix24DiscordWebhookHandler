@@ -13,7 +13,8 @@ Bitrix24DiscordWebhookHandler simple way to catch your Bitrix24 webhook and send
 4. Bitrix24DiscordWebhookHandler uses [stdlib.com](https://stdlib.com/) as [FaaS](https://en.wikipedia.org/wiki/Function_as_a_service) service.  
  Use ```$ npm install lib.cli -g``` to install 
 5. Set "discordWebhookUrl" as [environment variable](https://en.wikipedia.org/wiki/Environment_variable)    
-##### !discordWebhookUrl example ```https://discordapp.com/api/webhooks/111111111111111111/example ```   
+#### !discordWebhookUrl example  
+##### ```https://discordapp.com/api/webhooks/111111111111111111/example ```   
 6. ```context``` param contains all input information about webhook and will help you to form valid payload  
 
 ###Example  
