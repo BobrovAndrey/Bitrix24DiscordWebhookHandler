@@ -1,5 +1,5 @@
-const { data, embeds } = require('../bitrix-parser.js')
-const { post } = require('../bitrix-sender')
+const { data, embeds } = require('../bitrix24Parser.js')
+const { post } = require('../bitrix24Sender.js')
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL
 
 module.exports = async function (context) {
