@@ -37,4 +37,8 @@ $ lib your_username.yourService[@dev]
 $ lib release
 $ lib your_username.yourService
 ```
+#### view the logs
+```
+$ lib logs your_username.yourService
+```
  #### If you have additional questions, read more about [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser) and [Bitrix24Sender](https://github.com/BobrovAndrey/Bitrix24Sender) or [stdlib](https://docs.stdlib.com/main/#/introduction) 
