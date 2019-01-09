@@ -7,17 +7,12 @@ Require [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser)
 
 ## How to use
 1. Clone or download  
-
 2. Install latest version of [node.js](https://nodejs.org/en/)  
-
 3. Require [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser) and [Bitrix24Sender]  (https://github.com/BobrovAndrey/Bitrix24Sender)  
-
 4. Bitrix24DiscordWebhookHandler uses [stdlib.com](https://stdlib.com/) ```$ npm install lib.cli -g```   
-
 5. Set "discordWebhookUrl" as [environment variable](https://en.wikipedia.org/wiki/Environment_variable)    
-  ! discordWebhookUrl example ```https://discordapp.com/api/webhooks/111111111111111111/example ```   
-
-6. "context" param contains all input information about webhook and will help you to form valid payload  
+##### !discordWebhookUrl example ```https://discordapp.com/api/webhooks/111111111111111111/example ```   
+6. ```context``` param contains all input information about webhook and will help you to form valid payload  
 
 ###Example  
 ``` leadId = data(context).leadId```  
