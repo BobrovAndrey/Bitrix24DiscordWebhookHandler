@@ -16,9 +16,11 @@ Bitrix24DiscordWebhookHandler simple way to catch your Bitrix24 webhook and send
 #### !discordWebhookUrl example ```https://discordapp.com/api/webhooks/111111111111111111/example ```   
 6. ```context``` param contains all input information about webhook and will help you to form valid payload 
 ####Example  
-``` leadId = data(context).leadId```  
-``` bitrixDomain = data(context).bitrixDomain```  
-``` let payload = embeds(`Message ${leadId}`, `https://${bitrixDomain}/crm/lead/details/${leadId}/`, bitrixDomain) ```  
+```
+    leadId = data(context).leadId
+    bitrixDomain = data(context).bitrixDomain
+    let payload = embeds(`Message ${leadId}`, `https://${bitrixDomain}/crm/lead/details/${leadId}/`, bitrixDomain)
+```  
 
 7. Pass "DISCORD_WEBHOOK_URL" and "payload" to "post" method and treat him like a promise  
 ####Example  
